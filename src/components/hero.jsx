@@ -1,10 +1,10 @@
-import React from "react";
-
-function Hero(props) {
+import { useState } from "react";
+import styles from "../styles/hero.module.css";
+function Hero({title, subtitle}) {
   return (
-    <div style={{ backgroundColor: props.backgroundColor }}>
-      <h1>{props.title}</h1>
-      <p>{props.subtitle}</p>
+    <div className={styles.container}>
+      <h1 >{title}</h1>
+      <p>{subtitle}</p>
     </div>
   );
 }
