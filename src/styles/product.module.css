@@ -1,0 +1,7 @@
+.header {
+  color: black;
+  box-sizing: content-box;
+  gap: 2rem;
+  display: flex;
+  justify-content: center;
+}

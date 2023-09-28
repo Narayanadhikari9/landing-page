@@ -1,20 +1,11 @@
 import React from "react";
-
-import Hero from "./components/Hero";
-
+import Hero from "./components/hero";
+import Product from "./components/product";
 function App() {
   return (
     <div>
-      <Hero
-        title="Welcome to our website"
-        subtitle="Discover amazing content"
-        backgroundColor="#f0f0f0"
-      />
-      <Hero
-        title="New arrivals"
-        subtitle="Check out our latest products"
-        backgroundColor="#ffcc00"
-      />
+      <Hero />
+      <Product />
     </div>
   );
 }
