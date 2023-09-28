@@ -1,0 +1,9 @@
+/* header.module.css */
+header {
+  background-color: hsl(213, 23%, 27%);
+  text-align: center;
+  height: 4rem;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
