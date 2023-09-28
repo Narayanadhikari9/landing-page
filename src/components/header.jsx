@@ -1,7 +1,7 @@
 import React from "react";
-
+import styles from "../styles/header.module.css";
 function Header() {
-  return <header>{/* Header content */}</header>;
+  return <header>Landing Page</header>;
 }
 
 export default Header;
