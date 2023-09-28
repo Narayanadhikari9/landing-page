@@ -1,5 +1,6 @@
 import React from "react";
 import Advertisement from "./components/advertisement";
+import Product from "./components/product";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import styles from "./App.module.css";
@@ -9,6 +10,12 @@ function App() {
       <Header />
       <div className={styles.propsMainBody}>
         <div className={styles.componentBody}>
+          <Product
+        item_name="iPhone 15"
+        imageUrl="https://cdn.wccftech.com/wp-content/uploads/2023/09/iPhone-15-Pro-2-2-728x394.jpg"
+        item_description="black color"
+        backgroundColor="#ffcc00"
+      />
           <Advertisement
             title="Check out our special offers!"
             description="Do not miss out on this limited deals on our amazing products. 
