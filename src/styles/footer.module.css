@@ -1,0 +1,8 @@
+/* footer.module.css */
+footer {
+  background-color: hsl(213, 23%, 27%);
+  align-items: center;
+  text-align: center;
+  height: 4rem;
+  width: 100%;
+}
