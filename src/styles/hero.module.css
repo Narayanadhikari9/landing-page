@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+
+.hero {
+  background-color: navy;
+  text-align: center;
+  color: aqua;
+  margin-bottom:5px;
+  border-radius: 2rem;
+}
+
+.header {
+  color:black;
+}
