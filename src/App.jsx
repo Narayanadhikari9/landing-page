@@ -12,6 +12,14 @@ function App() {
       <Header />
       <div className={styles.propsMainBody}>
         <div className={styles.componentBody}>
+          <Hero
+            title="Welcome to our electronics shop website"
+            subtitle="We sell old and new electronics devices upto 50% off"
+          />
+          <Hero
+            title="New Iphone 15"
+            subtitle="Checkout our new Iphone 15 just get release"
+          />
           <Advertisement
             title="Check out our special offers!"
             description="Do not miss out on this limited deals on our amazing products. 
@@ -28,14 +36,7 @@ function App() {
             description="Elevate your artistry with our professional-grade drawing tablet. Precision, sensitivity, and limitless possibilities at your fingertips. 
         Unleash your creativity and create masterpieces like never before!"
           />
-          <Hero
-            title="Welcome to our electronics shop website"
-            subtitle="We sell old and new electronits devices upto 50% off"
-          />
-          <Hero
-            title="New Iphone 15"
-            subtitle="Checkout our new Iphone 15 just get release"
-          />
+
           <Product
             item_name="iPhone 15"
             imageUrl="https://cdn.wccftech.com/wp-content/uploads/2023/09/iPhone-15-Pro-2-2-728x394.jpg"
