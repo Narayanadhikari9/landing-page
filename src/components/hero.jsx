@@ -1,10 +1,10 @@
 import React from "react";
-
-function Hero(props) {
+import styles from "../styles/hero.module.css"
+function Hero({title, subtitle}) {
   return (
-    <div style={{ backgroundColor: props.backgroundColor }}>
-      <h1>{props.title}</h1>
-      <p>{props.subtitle}</p>
+    <div className={styles.hero}>
+      <h2>{title}</h2>
+      <h4 className={styles.header}>{subtitle}</h4>
     </div>
   );
 }

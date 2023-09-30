@@ -3,7 +3,9 @@ import Advertisement from "./components/advertisement";
 import Product from "./components/product";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import Hero from "./components/hero";
 import styles from "./App.module.css";
+
 function App() {
   return (
     <>
@@ -25,6 +27,14 @@ function App() {
             title="Unleash Your Creative Genius!"
             description="Elevate your artistry with our professional-grade drawing tablet. Precision, sensitivity, and limitless possibilities at your fingertips. 
         Unleash your creativity and create masterpieces like never before!"
+          />
+          <Hero
+            title="Welcome to our electronics shop website"
+            subtitle="We sell old and new electronits devices upto 50% off"
+          />
+          <Hero
+            title="New Iphone 15"
+            subtitle="Checkout our new Iphone 15 just get release"
           />
           <Product
             item_name="iPhone 15"
